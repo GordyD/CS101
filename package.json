@@ -1,0 +1,29 @@
+{
+  "name": "CompSci101",
+  "version": "1.0.0",
+  "description": "A library containing common data structures and algorithms",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --reporter spec test/unit/**/*.js"
+  },
+  "keywords": [
+    "CompSci",
+    "Algorithms",
+    "Data",
+    "Structures"
+  ],
+  "author": "Gordon Dent <gordon@workshape.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "babel": "^4.7.16"
+  }
+}
