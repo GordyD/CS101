@@ -139,6 +139,14 @@ describe('Graph', function() {
 
       expect(Object.keys(neighbours).length).to.equal(2);
     });
+
+    it('should return a set containing neighbours of B', function() {
+      var neighbours = graph.getNeighboursOf('B');
+      expect(neighbours['A']).to.be.an('Object');
+      expect(neighbours['C']).to.be.an('Object');
+
+      expect(Object.keys(neighbours).length).to.equal(2);
+    });
   });
 
   describe('doesEdgeExist', function() {
